@@ -25,6 +25,7 @@
       src="https://kit.fontawesome.com/0246b79050.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./js/main.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -43,6 +44,9 @@
           <li><a href="#contact" class="header__menu__item">연락처</a></li>
         </ul>
       </nav>
+      <button class="header__toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </header>
     <!-- Header 끝 -->
 
@@ -50,22 +54,24 @@
     <main>
       <!-- Home 시작 -->
       <section id="home">
+        <div class="home__contatiner">
         <img
           class="home__avatar"
           src="./image/pro.jpg"
           alt="Donghyun's profile"
         />
         <h2 class="home__title">
-          안녕하세요. <br /><strong class="home__title--string">김동현</strong>
+          안녕하세요. <br /><strong class="home__title--strong">김동현</strong>
           입니다
         </h2>
         <p class="home__description">
           세상에서 가장 뛰어난 AI 개발자 김동현 입니다!
         </p>
         <a class="home__contact" href="#contact">연락처</a>
+      </div>
       </section>
       <!-- Home 끝 -->
-      <!-- about 시작 -->
+       <!-- about 시작 -->
       <section id="about" class="section max-container">
         <h2 class="title">동현</h2>
         <p class="description">
@@ -77,20 +83,20 @@
           necessitatibus, ratione voluptatem eveniet porro quae quo quis
           perferendis id, ab, dignissimos illo quasi. Corporis!
         </p>
-        <ul class="skills">
-          <li class="skill">
-            <i class="fa-brands fa-html5 skill__icon"></i>
-            <p class="skill__title">Front-end</p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
             <p>HTML, CSS, JavaScript, Node.js, React</p>
           </li>
-          <li class="skill">
-            <i class="fa-solid fa-mobile skill__icon"></i>
-            <p class="skill__title">Mobile</p>
+          <li class="major">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">Mobile</p>
             <p>Android, IOS, Kotlin, React-Native</p>
           </li>
-          <li class="skill">
-            <i class="fa-solid fa-rocket skill__icon"></i>
-            <p class="skill__title">AI</p>
+          <li class="major">
+            <i class="fa-solid fa-rocket major__icon"></i>
+            <p class="major__title">AI</p>
             <p>Tensorflow, Python, Pytorch, Numpy</p>
           </li>
         </ul>
@@ -123,9 +129,9 @@
             at possimus, id libero omnis vitae sequi nobis in iste quo assumenda
             quos! Maiores quos culpa sit dolor eius ratione sunt.
           </p>
-          <div class="tools">
-            <section class="tools__coding">
-              <h3 class="tools__title">언어</h3>
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">언어</h3>
               <ul>
                 <li class="bar">
                   <div class="bar__metadata">
@@ -170,8 +176,8 @@
               </ul>
             </section>
 
-            <section class="tools__tools">
-              <h3 class="tools__title">도구</h3>
+            <section class="skills__tools">
+              <h3 class="skills__title">도구</h3>
               <ul>
                 <li>Visual Studio Code</li>
                 <li>IntelliJ</li>
@@ -181,8 +187,8 @@
               </ul>
             </section>
 
-            <section class="tools__etc">
-              <h3 class="tools__title">기타</h3>
+            <section class="skills__etc">
+              <h3 class="skills__title">기타</h3>
               <ul>
                 <li>Git</li>
                 <li>SLACK</li>
@@ -237,7 +243,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -250,7 +255,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -263,7 +267,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -276,7 +279,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -289,7 +291,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -302,7 +303,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -315,7 +315,6 @@
               </div>
             </li>
             <li class="project">
-              <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
