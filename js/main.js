@@ -34,4 +34,12 @@ arrowUp.addEventListener("click", (e) => {
 });
 
 const navbarMenu = document.querySelector(".header__menu");
-// 햄버거 메뉴
+// 햄버거 메뉴 만들기
+const navbarToggle = document.querySelector(".header__toggle");
+navbarToggle.addEventListener("click", () => {
+  navbarMenu.classList.toggle("open");
+});
+
+navbarMenu.addEventListener("click", () => {
+  navbarMenu.classList.remove("open");
+});

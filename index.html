@@ -26,6 +26,7 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./js/main.js"></script>
+    <script defer src="./js/project.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -208,28 +209,28 @@
           <p class="description">Projects</p>
           <ul class="categories">
             <li>
-              <button class="category category--selected">
-                ALL <span class="category__count">10</span>
+              <button class="category category--selected" data-category="all">
+                ALL <span class="category__count">8</span>
               </button>
             </li>
             <li>
-              <button class="category">
+              <button class="category" data-category="Front-end">
                 Front-end <span class="category__count">3</span>
               </button>
             </li>
             <li>
-              <button class="category">
+              <button class="category" data-category="mobile">
                 Mobile <span class="category__count">3</span>
               </button>
             </li>
             <li>
-              <button class="category">
-                AI <span class="category__count">4</span>
+              <button class="category" data-category="ai">
+                AI <span class="category__count">2</span>
               </button>
             </li>
           </ul>
           <ul class="projects">
-            <li class="project">
+            <li class="project"  data-type="Front-end">
               <!-- _blank:새탭열림-->
               <a href="#" target="_blank"></a>
               <img
@@ -239,10 +240,10 @@
               />
               <div class="project__metadata">
                 <h3 class="project__title">project#1</h3>
-                <p>티맵</p>
+                <p>프론트엔드 작업1</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project" data-type="Front-end">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -250,11 +251,11 @@
                 class="project__img"
               />
               <div class="project__metadata">
-                <h3 class="project__title">project#1</h3>
-                <p>티맵</p>
+                <h3 class="project__title">project#2</h3>
+                <p>프론트엔드 작업2</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project"  data-type="Front-end">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -262,11 +263,11 @@
                 class="project__img"
               />
               <div class="project__metadata">
-                <h3 class="project__title">project#1</h3>
-                <p>티맵</p>
+                <h3 class="project__title">project#3</h3>
+                <p>프론트엔드 작업3</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project"  data-type="mobile">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -274,11 +275,11 @@
                 class="project__img"
               />
               <div class="project__metadata">
-                <h3 class="project__title">project#1</h3>
-                <p>티맵</p>
+                <h3 class="project__title">project#4</h3>
+                <p>모바일 작업1</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project" data-type="mobile">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -287,10 +288,11 @@
               />
               <div>
                 <div class="project__metadata">
-                  <h3 class="project__title">project#1</h3>
+                  <h3 class="project__title">project#5</h3>
+                  <p>모바일 작업2</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project" data-type="mobile">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -299,10 +301,11 @@
               />
               <div>
                 <div class="project__metadata">
-                  <h3 class="project__title">project#1</h3>
+                  <h3 class="project__title">project#6</h3>
+                  <p>모바일 작업3</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project" data-type="ai">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -311,10 +314,11 @@
               />
               <div>
                 <div class="project__metadata">
-                  <h3 class="project__title">project#1</h3>
+                  <h3 class="project__title">project#7</h3>
+                  <p>AI 작업1</p>
               </div>
             </li>
-            <li class="project">
+            <li class="project" data-type="ai">
               <a href="#" target="_blank"></a>
               <img
                 src="./image/project.png"
@@ -323,7 +327,8 @@
               />
               <div>
                 <div class="project__metadata">
-                  <h3 class="project__title">project#1</h3>
+                  <h3 class="project__title">project#8</h3>
+                  <p>AI 작업2</p>
               </div>
             </li>
           </ul>
